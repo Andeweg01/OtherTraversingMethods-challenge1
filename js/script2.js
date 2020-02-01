@@ -8,12 +8,12 @@ $(document).ready(function(){
         $(this).removeClass("makeBlack");
     })
     $(".theButton").click(function(){
-        $(this).fadeTo(500, 0);
+        $(this).addClass("makeWhite");
     })
     $(".theButton").click(function(){
         $("#panel .container").siblings().fadeTo(500, .1);
     })
     $(".superButton").click(function(){
-        $("#panel .container").siblings().fadeTo(500, 1);
+        $("#panel .container").removeClass("makeWhite").fadeTo(500, 1);
     })
 });
