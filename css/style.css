@@ -46,9 +46,6 @@ p{
 .makeTextBlack{
    color: #000;
 }
-.makeBlack{
-    background-color: black;
-}
 .green{
   background-color: green;
 }
@@ -61,4 +58,6 @@ p{
 .selected{
     background-color: #F07D00;
 }
- 
+.makeBlack{
+    background-color: black;
+}
