@@ -1,23 +1,15 @@
-# Code Institute
+# Other traversing methods
 
-Welcome Sascha Andeweg,
+### Challenge 1
 
-We have preinstalled all of the tools you need to get started.
+When a colored panel is clicked, all panels vanish
 
-To run a frontend application in GitPod, in the terminal, type:
+When a colored panel is clicked, just that panel disappears
 
-`python3 -m http.server`
+When a panel is clicked, all siblings fade to 10% opacity
 
-A blue button should appear to click: *Expose*,
+When reset is clicked, all panels revert to full opacity
 
-Another blue button should appear to click: *Open Browser*.
+When the mouse hovers over a panel, that panel turns black
 
-To run a backend python file, type `python3 app.py`, if your python file is named `app.py` of course.
-
-A blue button should appear to click: *Expose*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons. 
-
-Happy coding!
+When the mouse moves away, the panel reverts back to its previous colour
